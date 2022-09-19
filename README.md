@@ -4,5 +4,6 @@
 
 ## JAVA 
 
-- JAVA Basic
+###  Day 01
 
+- JAVA Basic
