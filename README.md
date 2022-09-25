@@ -24,20 +24,24 @@
 
 - 출력서식
 - 연산자 우선순위
-- 재어문
- - 조건문
-   - if 문
-   - if ~ else
-   - if ~ else if ~ else
-   - switch
+- 제어문
+  - 조건문
+     - if 문
+     - if ~ else
+     - if ~ else if ~ else
+     - switch
 
 ###  Day 04
 
 - 반복문
- - for 문
- - while 문
- 
+   - for 문
+   - while 문
+
 ### Day 05
 
-● JAVA Basic
-
+- 이중 for문
+   - 향산된 for문 (for each문)
+   - random
+- 배열
+   - 1차원 배열
+   - 2차원 배열
