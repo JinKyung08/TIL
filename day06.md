@@ -238,8 +238,7 @@
 		return dx + dy ;		
 	}
 	
-	}```
-
+	}
 
 
 ### ▷ static (정적)
