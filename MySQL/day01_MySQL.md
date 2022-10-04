@@ -85,7 +85,7 @@
 * ELECT(검색), INSERT(삽입), DELETE(삭제), UPDATE(갱신) 
 * 데이터베이스 내의 자료를 실제 사용자가 이용(조작)하기 위한 언어
 
-**3. DCL(Data Control Language, 데이터 제어어) **
+**3. DCL(Data Control Language, 데이터 제어어)**
 
 - COMMIT(완료), ROLLBACK(되돌리기), GRANT(권한부여), REVOKE(권한회수) 
 - 관리자가 데이터의 보안, 무결성 유지, 병행제어, 회복 등을 하기 위해 사용하는 언어
@@ -137,7 +137,7 @@
 
 
 
-1. DB 생성(방만들기) 
+#### 1.DB 생성(방만들기) 
 
 -  create database 데이터베이스명; 
 
@@ -150,17 +150,23 @@
 - 데이터베이스 사용 : use 데이터베이스명; 
 
   ​                                  새로 sql 실행할 때 마다 반드시 사용할 데이터베이스를 선택해야 함
+  
 
-2. 데이터베이스 확인
-   - show databases;
-3. create 문
-   - creat 개체 만들개체이름;
-   - 개체 - 데이터베이스, 테이블, 뷰, 인덱스, 도메인,...
-4. .데이터베이스 제거
-   - drop 데이터베이스명;
-   - drop database if exists 지우려는 데이터베이스명;
+1\) 데이터베이스 확인
 
-### ▷ 테이블 생성
+- show databases;
+
+2\) create 문
+
+- creat 개체 만들개체이름;
+- 개체 - 데이터베이스, 테이블, 뷰, 인덱스, 도메인,...
+
+3\) 데이터베이스 제거
+
+- drop 데이터베이스명;
+- drop database if exists 지우려는 데이터베이스명;
+
+#### 2.  테이블 생성
 
 - 기본키 - primary key  -중복X, null X
 
