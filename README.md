@@ -2,7 +2,7 @@
 
 
 
-## JAVA 
+## -- JAVA --
 
 ###  Day 01
 
@@ -80,3 +80,19 @@
 - 제네릭 (Generic)
 - 람다식 (Lambda Expression)
 - 컬렉션 프레임웍 (Collection Framework)
+
+### Day 11
+
+- Map
+- 문자Set
+
+## -- MySQL --
+
+### Day 01
+
+- DBMS (Database Management System)
+- SQL(Structured Query Language, 구조적 질의어)
+- MySQL설치
+- 데이터베이스 구축
+   - DB생성
+   - 테이블 생성
