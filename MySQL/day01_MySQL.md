@@ -177,7 +177,7 @@
 - 문자열, 문자
 
   - char(크기) - 문자열 ,문자 크기 정해짐 ex) 전화번호, 주민번호
-  - varchar(크기) - 공간을 크게 확보하지만 쓰는 만큼만 / 쓰지 않는 건 메모리에 돌려줌 ex)주소
+  - varchar(크기) - 공간을 크게 확보하지만 쓰는 만큼만 / 쓰지 않는 건 메모리에 돌려줌 ex)주소 
 
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none; transition: color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color, box-shadow, border-color;"></summary></details>
 
