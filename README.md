@@ -96,3 +96,10 @@
 - 데이터베이스 구축
    - DB생성
    - 테이블 생성
+
+### Day 02
+
+- 테이블 생성 (CREATE)
+- 테이블 검색 (SELECT)
+- 데이터 삭제 (DELETE) / 데이터 생신 (UPDATE)
+- 정규화 (Normalization)
