@@ -103,3 +103,9 @@
 - 테이블 검색 (SELECT)
 - 데이터 삭제 (DELETE) / 데이터 생신 (UPDATE)
 - 정규화 (Normalization)
+
+### Day 03
+
+- 뷰 (View)
+- 하위쿼리 (sub query)
+- 조인 (Join)
