@@ -18,7 +18,7 @@
     	change column 열이름 변경할이름 데이터타입 [not null  : null]
   	  drop primary key;  -- 기본키 삭제
 
-### ▷ SUB QUERY
+\*  SUB QUERY
 
 - 스칼라 부속질의 : select절
 - 인라인 뷰 : from 절
@@ -70,6 +70,6 @@
 
 -   for each row   -- 모든 행 처리 
 
-- old.기존컬럼명 / old 테이블 - update 또는 delete가 수행되기 전의 데이터가 잠깐 저장되어 있는 임시테이블
+- old.기존컬럼명 / old 테이블 - update 또는 delete가 수행되기 전의 데이터가 잠깐 저장되어 있는 임시테이블 
 
    
