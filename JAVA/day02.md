@@ -34,7 +34,7 @@
 ​                      실수 :   float         4byte		0.0f
 ​	    	                     double      8byte	default	0.0
 ​	    	
-​                      문자 :   char         2byte
+​                      문자 :   char         2byte	   한 글자의 값
 ​	            boolean boolean     true/false
 ​	    
 
