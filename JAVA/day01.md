@@ -228,5 +228,4 @@
 ​    -기본자료형 : byte, short, int, long, float, double, boolean, char
 
 ​	-참조자료형 : 기본 자료형을 제외한 자료형
-​            String, 배열, 클래스,...
-
+​            String, 배열, 클래스,..
