@@ -109,4 +109,17 @@
 - 뷰 (View)
 - 하위쿼리 (sub query)
 - 조인 (Join)
+   - 이너조인(Inner Joim)
 
+### Day 04
+
+- 조인 (Join)
+   - 외부 조인 (Outer Joim)
+- ALTER
+- 스토어드 프로시저 (Stored Procedure)
+- 스토어드 함수 (Stored Function)
+- 트리거 (Trigger)
+
+### Day 05
+
+- JDBC (Java Database Connectivity)
