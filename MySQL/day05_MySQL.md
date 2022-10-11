@@ -101,5 +101,3 @@
 - executeUpdate() : insert, update, delete
 - executeQuery() : select	
 - execute() : 저장프로시저(스토어드 프로시저), 저장함수(스토어드 function)
-
- 
