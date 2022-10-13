@@ -127,3 +127,9 @@
 ### Day 05
 
 - JDBC (Java Database Connectivity)
+
+## -- Algorithm --
+
+### Day 01
+- Algorithm
+   - 기초(Basic)
