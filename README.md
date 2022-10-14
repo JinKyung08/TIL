@@ -133,3 +133,7 @@
 ### Day 01
 - Algorithm
    - 기초(Basic)
+
+### Day 02
+- Algorithm
+   - 기초(Basic) 2
