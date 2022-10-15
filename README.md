@@ -136,4 +136,4 @@
 
 ### Day 02
 - Algorithm
-   - 기초(Basic) 2
+   - 기초(Basic) 2 
