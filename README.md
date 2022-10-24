@@ -159,3 +159,10 @@
 - Algorithm
    - String Builder
    - 버블 정렬 (Bubble sort) 
+
+### Day 07
+- Algorithm
+   - 재귀함수
+   - 트리
+      - 너비 우선 탐색(BFS)
+      - 깊이 우선 탐색(DFS)
