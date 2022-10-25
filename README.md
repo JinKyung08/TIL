@@ -166,3 +166,7 @@
    - 트리
       - 너비 우선 탐색(BFS)
       - 깊이 우선 탐색(DFS)
+
+### Day 08
+- Algorithm
+   - 이분검색 (Binary Search)
