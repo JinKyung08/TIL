@@ -101,7 +101,7 @@ public class GraphExam {
 				if(w[i] > w[j]) {
 					tmp = w[i];
 					w[i]=w[j];
-					w[j]=tmp;
+					w[j]=tmp; 
 				}
 			}			
 	}
