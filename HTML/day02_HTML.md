@@ -25,5 +25,4 @@
   - justify-content: space-around; 양쪽 끝도 함께 여백을 설정
   - justify-content: space-between;  양쪽 끝에 이미지 붙이고 나머지 여백을 조정
 
-### 
 
