@@ -200,3 +200,9 @@
 ### Day 04
 - HTML
    - 웹페이지 만들기
+
+## -- JavaScript --
+
+### Day 01
+- JavaScript
+   - 기본 문법
