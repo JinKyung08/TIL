@@ -206,3 +206,10 @@
 ### Day 01
 - JavaScript
    - 기본 문법
+
+### Day 02
+- JavaScript
+   - 기본 문법
+      - 배열
+      - for문
+      - 함수(function)
