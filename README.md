@@ -213,3 +213,10 @@
       - 배열
       - for문
       - 함수(function)
+
+### Day 03
+- JavaScript
+   - 기본 문법
+      - String 객체
+      - JSON
+      - DOM(Document Object Model)
