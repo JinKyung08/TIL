@@ -220,3 +220,8 @@
       - String 객체
       - JSON
       - DOM(Document Object Model)
+
+### Day 0
+- JavaScript
+   - 기본 문법
+      - 이벤트 처리
