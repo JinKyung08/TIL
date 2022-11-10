@@ -221,7 +221,14 @@
       - JSON
       - DOM(Document Object Model)
 
-### Day 0
+### Day 04
 - JavaScript
    - 기본 문법
       - 이벤트 처리
+
+### Day 05
+- JavaScript
+   - 기본 문법
+      - 버그(bug)
+      - 예외처리
+      - Class
