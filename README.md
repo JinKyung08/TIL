@@ -236,4 +236,4 @@
 ### Day 04
 - JavaScript
    - 기본 문법
-      - jQuery
+      - jQuery 
