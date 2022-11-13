@@ -5,6 +5,7 @@
 ### ▷ jQuery
 
 - 주소 연결 방식 - \<script src="https://code.jquery.com/jquery-3.6.1.js">\</script>
+
 - 다운로드 - \<script src="js/jquery-3.6.1.min.js">\</script>
 
 - window.jQuery = window.$ = jQuery
@@ -13,10 +14,26 @@
 
 - jQuery시작 -> 문서 객체의 생성 완료 시점을 잡는 이벤트 연결
   - $(document).ready(function(){   })
+  
+- $('h1') => h1요소(태그)를 선택
+
+- $('h1.aa') => h1요소 중에 class속성 aa인 태그(요소) 선택
+
+- $('#test') => id속성이 test1인 태그(요소) 선택
+
+- $('input[type=submit]') => input 요소(태그)중에 type속성이 submit인 태그 선택
+
+- $('h1').parent() => h1태그의 부모 태그를 선택
+
+- $('h1').find('i')=>h1태그 내부에 있는 i태그를 선택
+
 - attr() : 문서 객체의 속성 조작
+
 - each()  : 선택한 문서 객체에 반복을 적용
   - $('h1').each(function(index, item){ }) 
+  
 - $(선택자 : odd) :홀수 
+
 - $(선택자 : even) :짝수 
 
 - length : 선택된 문서 객체의수 
@@ -48,3 +65,7 @@
    
 
 - $(선택자).animate(속성,시간,콜백함수);
+
+- show : 600밀리초 속도, slow : 점차나타남 ,normal : 500밀리초 속도, fast : 400밀리초 속도
+
+  

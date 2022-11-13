@@ -233,7 +233,7 @@
       - 예외처리
       - Class
 
-### Day 04
+### Day 06
 - JavaScript
    - 기본 문법
       - jQuery 
