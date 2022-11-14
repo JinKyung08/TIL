@@ -237,3 +237,9 @@
 - JavaScript
    - 기본 문법
       - jQuery 
+
+### Day 01
+- React
+   - 리액트 (React)
+   - JSX
+    
