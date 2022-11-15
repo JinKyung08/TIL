@@ -238,8 +238,15 @@
    - 기본 문법
       - jQuery 
 
+## -- React --
+
 ### Day 01
 - React
    - 리액트 (React)
    - JSX
-    
+
+### Day 02
+- React
+   - 컴포넌트
+   - useState
+   - 생명주기, useEffect
