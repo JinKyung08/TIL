@@ -4,7 +4,7 @@
 
 ### ▷ Page 이동
 
-- forward 방식
+- forward
   - Response - RequestDispatcher에서 forward 함수를 활용하여 이동하는 방식
   - 페이지 이동이 되면서 가지고 있던 파라메터 및 Attribute를 모두 넘겨줌.
   - 예시) 로그인 Controller(Servlet) -> 로그인 결과 View (JSP) 
@@ -13,15 +13,17 @@
 
 
 
-- SendRedirect 방식
+- SendRedirect 
+
+  - 단순 페이지 이동으로 사용자 파라메터와 Attribute가 저장되지 않음.
+
+  - 다음 페이지 호출은 get방식으로 호출됨!
+
   - Request - SendRedirect 함수를 호출하는 방식
   - 페이지가 이동되면서 기존에 가진 파라메터 및 Attribute를 초기화 함
   - 예시) 로그인 실패 -> 메인페이지로 이동 시킬때, 기존 data를 소거하고 get 방식
   - 주로 단순 페이지 이동에도 활용됨.
   - 메커니즘 : 사용자 브라우저에서 페이지가 이동되는 원리
-  - SendRedirect
-    - 단순 페이지 이동으로 사용자 파라메터와 Attribute가 저장되지 않음.
-    - 다음 페이지 호출은 get방식으로 호출됨!
 
 
 
@@ -62,7 +64,7 @@ HttpSession 세션명=HttpServletRequest.getSession();
    *  HTTP의 기록서의 일종으로 사용자가 웹사이트를 방문하면 사이트에서 사용하는 정보를 저장할수 있는 기능
    *  쿠키 표준 : 최대 4kb, 저장갯수 3000개 
    *  기록 장소 : 웹브라우저가 지정한 고유 path에 저장됨 (Client)
-      *  특징 : 보안에 취약하다고 알려짐 -> 개발자가 안전하게 사용할수 있도록 기술적 보완을 하거나 중요하지 않은 기능만 저장
+   *  특징 : 보안에 취약하다고 알려짐 -> 개발자가 안전하게 사용할수 있도록 기술적 보완을 하거나 중요하지 않은 기능만 저장
 
   ~~~
   //Cookie클래스 생성(패키지 import)
