@@ -272,3 +272,11 @@
    - Web
    - WAS
    - Servlet
+
+### Day02
+- Servlet
+   - Page 이동
+      - forward
+      - SendRedirect
+   - Session
+   - Cookie
