@@ -286,3 +286,7 @@
    - JSP
    - 지시어 (Directive)
    - JSP 내장 객체
+
+### Day04
+- Servlet
+   - MVC
