@@ -3,7 +3,7 @@
 ## -- Servlet --
 
 ### ▷MVC
-
+ 
 - Model View Controller
 - 웹 어플리케이션 개발 시 MVC 패턴을 적용하여 각각의 역할 별 작업이 가능하도록 분담하는 설계 패턴
 - Model 
