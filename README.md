@@ -297,3 +297,6 @@
 ### Day06
 - Filter
 - Wrapper
+
+### Day06
+- 게시판
