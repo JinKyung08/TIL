@@ -300,3 +300,9 @@
 
 ### Day06
 - 게시판
+
+### Day07
+- JSP 
+   - JSP Action Tag
+   - EL 
+   - JSTL
