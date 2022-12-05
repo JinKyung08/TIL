@@ -306,3 +306,8 @@
    - JSP Action Tag
    - EL 
    - JSTL 
+
+### Day08
+- Servlet 
+   - AJAX(Asynchronous JavaScript and XML)
+   - JSON (JavaScript Object Notation)
