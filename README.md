@@ -292,22 +292,16 @@
    - MVC  
 
 ### Day05
-- 게시판
-
-### Day06
 - Filter
 - Wrapper
 
 ### Day06
-- 게시판
-
-### Day07
 - JSP 
    - JSP Action Tag
    - EL 
    - JSTL 
 
-### Day08
+### Day07
 - Servlet 
    - AJAX(Asynchronous JavaScript and XML)
    - JSON (JavaScript Object Notation)
