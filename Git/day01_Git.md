@@ -34,6 +34,6 @@
 
   - 원격 저장소에 있는 Repository를 로컬에 복제하여 연동
 
-- Commit & Push
+- Commit & Push 
 
   
