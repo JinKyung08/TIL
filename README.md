@@ -326,5 +326,8 @@
 ## -- Git --
 - GIT
 
+## -- Design Thinking --
+- Design Thinking
+
 
 
