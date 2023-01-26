@@ -72,3 +72,33 @@ Framework -> Boot 쉬움, Boot -> Spring Framework 어려움
 | REST 관련                                  | Rest Repositories HAL Explorer    |
 | 웹소켓                                     | WebSocket                         |
 
+
+
+- ORM (JPA) 개념
+  - ORM
+    - Object Relational Mapping
+    - Object와 Relational DB 간의 연동이 별도의 코드나 또는 쿼리문 작성 없이 Object와 Table이 1:1 맵핑 되어 자동으로 연결해주는 개념
+    - DB 종속성 없이 객체와 연결 가능하여 모든 DB와 호환이 가능하도록 지원되는 기능 포함
+  - Hibernate
+    - ORM의 개념을 실체화한 Framework로 DB와 Java 간의 연결이 가능한 다양한 기능을 제공
+  - JPA (Java Persistence API) or Repository
+    - ORM 개념을 사용 할 수 있도록 구체화한 Interface로 Java언어에서 제공
+    - 하이버네티스는 JPA을 상속받아 기능을 실체화한 프레임 워크 (JPA는 JDBC Driver이고, Hibernate는 Mysql Driver와 같은 관계)
+  - Spring DATA
+    - Hibernate 및 JPA를 사용하여 Spring에서 ORM기능을 활용할수 있도록 구성된 프레임 워크 모음
+
+
+
+- MyBatis VS ORM(JPA + Hibernate)
+
+|      구분      |                           MyBatis                            |                     ORM(JPA + Hibernate)                     |
+| :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|      개념      | JDBC Driver 기반으로 Java 코드와<br/>SQL을 분리하고 반자동 맵핑 기능 지원 | Object와 Table 1:1 맵핑 및<br/>DDL, DML 자동으로 생성하는 도구 |
+|      특징      | DB 종속적, SQL 분리 관리<br/>일부 자동 맵핑, 동적 쿼리 활용  |      DB 독립성, SQL 자동생성<br/>객체-테이블 자동 맵핑       |
+| 다중 DB 관리법 | DB 별 SQL관리 XML을 생성하여<br/>필요한 만큼 XML을 늘려 관리 |        자동으로 DB 맵핑으로<br/>사용자 설정 필요 없음        |
+|  기능 구현법   |    XML기반으로 코드 쿼리 1:1 관리<br/>Mapper를 통해 호출     | 객체에 어노테이션을 통해 DB 자동 맵핑<br/>JPA를 상속 받아 CRUD 자동 기본 구현<br/>+ 사용자 필요한 기능 추가 구현 |
+|   동적 쿼리    |             Mybatis 문법으로 if문과 반복문 지원              | 자체적인 동적 쿼리 생성 불가<br/>라이브러리 활용하거나 수동으로 구현 |
+|      장점      | 복잡한 쿼리나 동적 쿼리 작성에 탁월하고<br/>최적화나 캐쉬를 통해 성능적 우위 | 자동으로 DDL, DML 생성하여 생상성 향상<br/>DB 독립적으로 코드 활용 가능 |
+|      단점      |   생산성이 저하되고, DB 종속적임으로<br/>XML 관리가 불편함   | 자동으로 생성되는 쿼리가 성능저하 유발<br/>복잡한 쿼리 작성이 실질적으로 어려움 |
+|      활용      | DB 종속적인 환경에서 복잡한 쿼리가<br/>빈번하거나 최적화가 필요한 경우 활용<br/>(SI, 은행권 등... 기존 프로젝트에서 활용) | DB 독립적인 제품(솔루션)을 만들거나<br/>개발 생산성이 중요한 환경에서 활용<br/>(스타트업, 최근 개발자 기근으로 뜨는 추세!) |
+
