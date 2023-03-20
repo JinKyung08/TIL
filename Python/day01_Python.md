@@ -189,3 +189,149 @@
 
   - 어떠한 경우에도 변경되어서는 안 되는 불변적 정보를 담을 때 사용한다.
     - 지난 달의 기상 정보, 일주일과 같은 일정한 단위, 예년도 통계 수치
+  
+- 집합
+
+  - 자바의 Set과 유사한 자료형 ( 요소의 중복 불가, 순서 유지 X )
+
+  ~~~
+  - 생성자를 사용하는 방식
+  	a = set()
+  	print(a)
+  - { } 를 사용하는 방식
+  	b = { 1, 2, 3 }
+  	print(b)
+  ~~~
+
+  - 값을 추가 시 연속적인(Iterable) 값을 넣을 경우, 각각을 구분 지어 중복을 제거\
+  - 합집합, 교집합, 차집합의 개념이 존재한다.
+
+  ~~~
+  eX)
+  a = set(‘Hello’)
+  print(a)
+  결과 : {'l', 'h', 'e', 'o'}	
+  ~~~
+
+
+
+- 합집합 ( |, union)
+
+  - 두 집합을 합치되 중복되는 값은 한 번만 표현됨
+
+  ~~~
+  - | 를 사용하는 방식
+  	a = set([1, 2, 4])
+      b = set([2, 4, 8])
+      print( a | b )
+  - union() 을 사용하는 방식
+  	a = set([1, 2, 4])
+      b = set([2, 4, 8])
+      print( a.union(b) )
+  
+  ~~~
+
+  
+
+- 교집합 ( & , intersection)
+
+  - 두 집합에서 중복되는(공통) 요소만 표현됨
+
+  ~~~
+  - & 를 사용하는 방식
+  	a = set([1, 2, 4])
+      b = set([2, 4, 8])
+      print( a & b )
+  - intersection() 을 사용하는 방식
+      a = set([1, 2, 4])
+      b = set([2, 4, 8])
+      print( a.intersection(b) )
+  ~~~
+
+  
+
+- 차집합 ( - , difference)
+
+  - 앞의 집합에서 뒤의 집합의 공통 요소를 뺀 나머지만 표현됨
+
+  ~~~
+  - - 를 사용하는 방식
+  	a = set([1, 2, 4])
+      b = set([2, 4, 8])
+      print( a - b )
+  - difference() 을 사용하는 방식
+      a = set([1, 2, 4])
+      b = set([2, 4, 8])
+      print( a.difference(b) )
+  ~~~
+
+  
+
+- 집합 관련 함수 
+  - add(obj) - 집합에 특정 obj 추가
+  - update(obj) -  집합에 여러 obj 추가 
+  - remove(obj) - 집합에서 특정obj 제거 
+
+- 딕셔너리
+
+  - 자바의 Map과 유사한 자료형 ( key와 value로 구성된 요소를 저장함 )
+
+  ~~~
+  - 생성자를 사용하는 방식
+  	a = dict()
+      a[‘one’] = ‘Hello’
+      print(a)
+  - { } 를 사용하는 방식
+      b = { 1: ‘월’, 2 : ‘화’ }
+      print(b)
+  ~~~
+
+- 딕셔너리 각 key의 요소 접근
+
+  - a[ key ] = value / print( a[ key ] )
+
+  ~~~
+  keys() :키들만 가져옴
+  print(a.keys())
+  
+  >> dict_keys( [1, 2] )
+  
+  - values() : 안의 요소들만 가져옴
+  print(a.values())
+  
+  >> dict_values( [‘H’, ‘e’] )
+  ~~~
+
+  
+
+- 딕셔너리 관련 함수
+  - list( a.keys() ) - a의 키 값들로 리스트 객체 생성
+  - items()  - Key와 Value의 쌍을 튜플로 묶어 dict_items 객체로 반환함
+  - clear() - 저장된 요소를 모두 삭제함
+  - get( key [, default] ) - a[ key ] 와 같으나, 만약 값이 존재하지 않으면 a[ key ] 가 에러를 출력                                       하는 것과 다르게, get() 은 ‘None’을 출력함
+  - key in a - 해당 Key가 딕셔너리 안에 있는지 조사
+
+
+
+- 불(Bool)
+
+  - 논리 자료형으로 True(참) / False(거짓) 가 있음 ** 첫글자는 대문자!
+
+  ~~~
+  - 일반 값으로 쓰일 때
+      a = True
+      print( a )
+  - 함수형태로 쓰일 때
+      bool( ‘Python’ )
+      >> True
+  ~~~
+
+
+
+- 자료형 관련 내장함수 (built in)
+  - 특정 객체의 자료형을 변환해주는 내장 함수
+  - int( obj )  - 정수로 변환
+  - int( obj , n )  - 2 | 8 | 16 진수로 변환
+  - float( obj ) - 실수로 변환
+  - str( obj ) - 문자열(문자열 값의 형태)로 변환
+  - repr( obj ) - 문자열(객체 형태)로 반환
